@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>superhero-quiz</title>
+    <link rel="stylesheet" href="style_heroquiz.css">
+    <style>
+        
+
+        .quiz-container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #ccc100;
+        }
+
+        
+
+        .options label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .options input {
+            margin-right: 5px;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+            background-color: #ccc100;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .result {
+            font-size: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+    <script>
+        function checkQuiz1() {
+            var radios = document.getElementsByName("quiz1");
+            var result = document.getElementById("result1");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "2") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+
+        function checkQuiz2() {
+            var radios = document.getElementsByName("quiz2");
+            var result = document.getElementById("result2");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "3") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+
+        function checkQuiz3() {
+            var radios = document.getElementsByName("quiz3");
+            var result = document.getElementById("result3");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "1") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+        
+        function checkQuiz4() {
+            var radios = document.getElementsByName("quiz4");
+            var result = document.getElementById("result4");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "2") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+
+        function checkQuiz5() {
+            var radios = document.getElementsByName("quiz5");
+            var result = document.getElementById("result5");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "3") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+
+        function checkQuiz6() {
+            var radios = document.getElementsByName("quiz6");
+            var result = document.getElementById("result6");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "1") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+        
+        function checkQuiz7() {
+            var radios = document.getElementsByName("quiz7");
+            var result = document.getElementById("result7");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "2") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+
+        function checkQuiz8() {
+            var radios = document.getElementsByName("quiz8");
+            var result = document.getElementById("result8");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "3") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+
+        function checkQuiz9() {
+            var radios = document.getElementsByName("quiz9");
+            var result = document.getElementById("result9");
+            for (var i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    if (radios[i].value == "1") {
+                        result.innerHTML = "Правильно!";
+                        result.style.color = "green";
+                    } else {
+                        result.innerHTML = "Неправильно.";
+                        result.style.color = "red";
+                    }
+                    break;
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="quiz-container">
+        <h1>Quiz-Superhero</h1>
+        <form>
+            <div class="question">
+                <p>1. What is the real name of the superhero known as "Superman"?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="quiz1" value="1">a) Clark Kent
+                    </label>
+                    <label><input type="radio" name="quiz1" value="2">b) Bruce Wayne
+                    </label>
+                    <label><input type="radio" name="quiz1" value="3">c) Peter Parker
+                    </label>
+                    <label><input type="radio" name="quiz1" value="3">d)Tony Stark
+
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz1()">submit</button>
+                <p id="result1" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>2. Which superhero is often referred to as the "Dark Knight"?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="quiz2" value="1">a) Spider-Man
+                    </label>
+                    <label><input type="radio" name="quiz2" value="2">b)Batman
+                    </label>
+                    <label><input type="radio" name="quiz2" value="3">c)Iron Man
+                    </label>
+                    <label><input type="radio" name="quiz2" value="3">  d) The Flash
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz2()">submit</button>
+                <p id="result2" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>
+                    3. What radioactive arachnid bit Peter Parker, granting him superpowers and leading to his superhero identity?
+                    </p>
+                <div class="options">
+                    <label><input type="radio" name="quiz3" value="1">a) A radioactive wolf
+                    </label>
+                    <label><input type="radio" name="quiz3" value="2">   b) A radioactive spider
+                    </label>
+                    <label><input type="radio" name="quiz3" value="3"> c) A radioactive scorpion
+                    </label>
+                    <label><input type="radio" name="quiz3" value="3">    d) A radioactive bat
+
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz3()">submit</button>
+                <p id="result3" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>4. Who is the alter ego of the superhero "Wonder Woman"?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="quiz4" value="1">  a) Diana Prince
+                    </label>
+                    <label><input type="radio" name="quiz4" value="2">b) Natasha Romanoff
+                    </label>
+                    <label><input type="radio" name="quiz4" value="3">   c) Selina Kyle
+                    </label>
+                    <label><input type="radio" name="quiz4" value="3">  d) Carol Danvers
+
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz4()">submit</button>
+                <p id="result4" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>5. Which superhero possesses a vibranium shield, and is a founding member of the Avengers?</p>
+                <div class="options">
+                    <label><input type="radio" name="quiz5" value="1">   a) Captain America
+                    </label>
+                    <label><input type="radio" name="quiz5" value="2">  b) Thor
+                    </label>
+                    <label><input type="radio" name="quiz5" value="3">   c) Hulk
+                    </label>
+                    <label><input type="radio" name="quiz5" value="3">    d) Black Widow
+
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz5()">submit</button>
+                <p id="result5" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>6. What is the name of the fictional city where Batman operates and protects its citizens from crime?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="quiz6" value="1">   a) Star City
+                    </label>
+                    <label><input type="radio" name="quiz6" value="2">   b) Gotham City
+                    </label>
+                    <label><input type="radio" name="quiz6" value="3">  c) Metropolis
+                    </label>
+                    <label><input type="radio" name="quiz6" value="3">   d) Central City
+
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz6()">submit</button>
+                <p id="result6" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>7. Which superhero is known for his genius-level intellect, armor suit, and as the "Armored Avenger"?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="quiz7" value="1">   a) Black Panther
+                    </label>
+                    <label><input type="radio" name="quiz7" value="2">   b) Ant-Man</label>
+                    <label><input type="radio" name="quiz7" value="3"> c) Iron Man
+                    </label>
+                    <label><input type="radio" name="quiz7" value="3">    d) Doctor Strange
+
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz7()">submit</button>
+                <p id="result7" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>8. What superhero, also known as Ororo Munroe, possesses the ability to control the weather?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="quiz8" value="1">   a) Storm
+                    </label>
+                    <label><input type="radio" name="quiz8" value="2">  b) Scarlet Witch
+                    </label>
+                    <label><input type="radio" name="quiz8" value="3">   c) Jean Grey
+                    </label>
+                    <label><input type="radio" name="quiz8" value="3">   d) Rogue
+
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz8()">submit</button>
+                <p id="result8" class="result"></p>
+            </div>
+            
+            <div class="question">
+                <p>9. Who is the main antagonist and arch-nemesis of Spider-Man?
+                </p>
+                <div class="options">
+                    <label><input type="radio" name="quiz9" value="1">   a) The Green Goblin
+                    </label>
+                    <label><input type="radio" name="quiz9" value="2">  b) Lex Luthor
+                    </label>
+                    <label><input type="radio" name="quiz9" value="3">   c) Loki
+                    </label>
+                    <label><input type="radio" name="quiz9" value="3">     d) The Joker
+
+                    </label>
+                </div>
+                <button type="button" onclick="checkQuiz9()">submit</button>
+                <p id="result9" class="result"></p>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>
